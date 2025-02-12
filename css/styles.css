@@ -26,6 +26,31 @@
 }
 
 
+@font-face
+{
+    font-family: 'Faberge';
+    font-weight: normal;
+    font-style: normal;
+
+    font-display: swap;
+    src: url('../fonts/faberge-regular.woff2') format('woff2'),
+    url('../fonts/faberge-regular.woff') format('woff'),
+    url('../fonts/faberge-regular.ttf') format('truetype');
+}
+
+@font-face
+{
+    font-family: 'Faberge';
+    font-weight: normal;
+    font-style: italic;
+
+    font-display: swap;
+    src: url('../fonts/faberge-italic.woff2') format('woff2'),
+    url('../fonts/faberge-italic.woff') format('woff'),
+    url('../fonts/faberge-italic.ttf') format('truetype');
+}
+
+
 
 /*------------------
     Reset styles
@@ -202,6 +227,103 @@ button
     max-width: 1372px;
     margin: 0 auto;
     padding: 0 24px;
+}
+
+
+
+/*------------
+    Header
+------------*/
+header
+{
+    font-family: 'Geometria', 'Arial', sans-serif;
+
+    position: absolute;
+    z-index: 9;
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    padding: 40px 0;
+
+    color: #fff;
+}
+
+
+header .cont
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+header .with_support_label,
+header .organizer_label
+{
+    font-size: 10px;
+    font-weight: 500;
+    line-height: 14px;
+
+    display: none;
+    order: 3;
+
+    width: 100%;
+    margin-bottom: 12px;
+
+    text-align: center;
+    letter-spacing: .8px;
+    text-transform: uppercase;
+
+    color: #5c5d62;
+}
+
+
+header .organizer_label
+{
+    order: 1;
+}
+
+
+header .logos
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    width: 430px;
+    max-width: 100%;
+
+    gap: 58px;
+}
+
+
+header .logos ~ .logos
+{
+    justify-content: flex-end;
+
+    gap: 48px;
+}
+
+
+header .logos img
+{
+    display: block;
+
+    max-width: 100%;
+}
+
+
+header .logo img
+{
+    display: block;
+
+    height: 23px;
+    margin: 0 auto;
 }
 
 
@@ -983,4 +1105,255 @@ button
     width: 100%;
 
     border-radius: inherit;
+}
+
+
+
+/*------------
+    Footer
+------------*/
+footer
+{
+    font-family: 'Geometria', 'Arial', sans-serif;
+
+    padding: 65px 0 104px;
+
+    color: #fff;
+    background: #2a282d;
+    box-shadow: 0 2px 6px 2px rgba(0, 0, 0, .15), 0 1px 2px 0 rgba(0, 0, 0, .30);
+}
+
+
+footer .cont
+{
+    display: flex;
+    align-content: flex-start;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+footer .data
+{
+    position: relative;
+
+    width: 100%;
+    margin-bottom: 94px;
+    padding-left: 135px;
+}
+
+
+footer .data .title
+{
+    font-family: 'Faberge', 'Arial', sans-serif;
+    font-size: 68px;
+
+    letter-spacing: .682px;
+    text-transform: uppercase;
+}
+
+
+footer .data .title span
+{
+    color: #cb4d48;
+}
+
+
+footer .data .period
+{
+    font-family: 'Faberge', 'Arial', sans-serif;
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+
+    white-space: nowrap;
+    text-transform: uppercase;
+
+    color: #b1b1b9;
+
+    gap: 18px;
+}
+
+
+footer .data .period .start,
+footer .data .period .current
+{
+    font-size: 68px;
+
+    min-width: 144px;
+}
+
+
+footer .data .period .line
+{
+    width: 100%;
+    height: 2px;
+
+    background: currentColor;
+}
+
+
+footer .data .period .duration
+{
+    font-size: 31px;
+
+    min-width: 124px;
+
+    text-align: center;
+    text-transform: uppercase;
+}
+
+
+footer .data img
+{
+    position: absolute;
+    top: 6px;
+    left: -21px;
+
+    display: block;
+}
+
+
+
+footer .logo
+{
+    margin-right: auto;
+}
+
+
+footer .logo img
+{
+    display: block;
+
+    max-width: 100%;
+}
+
+
+
+footer .links,
+footer .contacts
+{
+    width: 306px;
+    max-width: 100%;
+    margin-left: 36px;
+}
+
+
+footer .links .title,
+footer .contacts .title
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 24px;
+
+    margin-bottom: 12px;
+
+    text-transform: uppercase;
+
+    color: #5c5d62;
+}
+
+
+footer .links .items
+{
+    font-weight: 500;
+    line-height: 24px;
+
+    display: flex;
+    flex-direction: column;
+
+    color: #faf6f1;
+
+    gap: 12px;
+}
+
+
+footer .links .items a
+{
+    display: inline-block;
+
+    transition: color .2s linear;
+    vertical-align: top;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+footer .links .items a:hover,
+footer .links .items a.active
+{
+    color: #cb4d48;
+}
+
+
+
+footer .contacts .email,
+footer .contacts .phone
+{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 32px;
+
+    color: #faf6f1;
+}
+
+
+footer .contacts .email a,
+footer .contacts .phone a
+{
+    white-space: nowrap;
+    text-decoration: none;
+
+    color: currentColor;
+}
+
+
+
+footer .contacts .person
+{
+    position: relative;
+
+    margin-top: 20px;
+    padding-top: 12px;
+
+    color: #faf6f1;
+}
+
+
+footer .contacts .person:before
+{
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    display: block;
+
+    width: 12px;
+    height: 1px;
+
+    content: '';
+    pointer-events: none;
+
+    background: currentColor;
+}
+
+
+footer .contacts .person .name
+{
+    font-weight: 500;
+    line-height: 24px;
+}
+
+
+footer .contacts .person .post
+{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
 }

@@ -1,12 +1,53 @@
 @media print,
 (max-width: 767px)
 {
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 20px 0;
+    }
+
+
+    header .logo img
+    {
+        height: 18px;
+    }
+
+
+    header .with_support_label + .logos img:nth-child(1)
+    {
+        max-height: 37px;
+    }
+
+    header .with_support_label + .logos img:nth-child(2)
+    {
+        max-height: 33px;
+    }
+
+
+    header .logo + .logos img:nth-child(1)
+    {
+        order: 2;
+
+        max-height: 18px;
+    }
+
+    header .logo + .logos img:nth-child(2)
+    {
+        max-height: 33px;
+    }
+
+
+
     /*----------------
         Event head
     ----------------*/
     .event_head
     {
-        padding: 160px 0 80px;
+        padding-top: 212px;
+        padding-bottom: 80px;
     }
 
 
@@ -250,5 +291,111 @@
     .event_gallery .swiper-slide
     {
         width: 360px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer
+    {
+        overflow: hidden;
+
+        padding: 134px 0 93px;
+
+        border-radius: 12px 12px 0 0;
+    }
+
+
+    footer .cont
+    {
+        gap: 40px;
+    }
+
+
+    footer .data
+    {
+        margin-bottom: 4px;
+    }
+
+
+    footer .data img
+    {
+        top: auto;
+        right: 0;
+        bottom: 100%;
+        left: 0;
+
+        display: block;
+
+        width: 144px;
+        margin: 0 auto 17px;
+    }
+
+
+    footer .data .title
+    {
+        font-size: 40px;
+
+        width: calc(100% + 16px);
+        margin-right: -8px;
+        margin-left: -8px;
+
+        text-align: center;
+        letter-spacing: .4px;
+    }
+
+
+    footer .data .period
+    {
+        margin-top: 1px;
+
+        text-align: center;
+    }
+
+
+    footer .data .period .start,
+    footer .data .period .duration,
+    footer .data .period .line
+    {
+        display: none;
+    }
+
+
+    footer .data .period .current
+    {
+        width: 100%;
+    }
+
+
+    footer .links,
+    footer .contacts
+    {
+        width: 100%;
+
+        text-align: center;
+    }
+
+
+    footer .contacts .person:before
+    {
+        right: 0;
+        left: 0;
+
+        margin: 0 auto;
+    }
+
+
+    footer .logo
+    {
+        margin-top: 40px;
+    }
+
+
+    footer .logo img
+    {
+        width: 153px;
+        margin: 0 auto;
     }
 }

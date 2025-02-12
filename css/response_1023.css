@@ -6,7 +6,8 @@
     ----------------*/
     .event_head
     {
-        padding: 180px 0 88px;
+        padding-top: 248px;
+        padding-bottom: 88px;
     }
 
 
@@ -149,5 +150,22 @@
     .event_gallery .swiper-slide
     {
         width: 400px;
+    }
+
+
+
+    /*------------
+        Footer
+    ------------*/
+    footer .cont
+    {
+        gap: 48px;
+    }
+
+
+    footer .links,
+    footer .contacts
+    {
+        width: calc(33.333% - 32px);
     }
 }
