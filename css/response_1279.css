@@ -1,0 +1,323 @@
+@media print,
+(max-width: 1279px)
+{
+    /*----------------
+        Event head
+    ----------------*/
+    .event_head
+    {
+        padding: 180px 0 100px;
+    }
+
+
+    .event_head .pre_title
+    {
+        font-size: 16px;
+        line-height: 100%;
+
+        margin-bottom: 20px;
+    }
+
+
+    .event_head .title
+    {
+        font-size: 48px;
+
+        width: 560px;
+    }
+
+
+    .event_head .desc
+    {
+        width: 500px;
+    }
+
+
+
+    /*----------------
+        Event data
+    ----------------*/
+    .event_data .data
+    {
+        margin-top: -48px;
+        padding: 24px;
+
+        border-radius: 24px;
+    }
+
+
+    .event_data .label
+    {
+        margin-bottom: 4px;
+    }
+
+
+    .event_data .item.name
+    {
+        width: 140px;
+    }
+
+
+    .event_data .item.date
+    {
+        width: 140px;
+        margin-left: 28px;
+    }
+
+
+    .event_data .item.location
+    {
+        width: 188px;
+        margin-left: 28px;
+    }
+
+
+    .event_data .btns .btn
+    {
+        padding: 15px 27px;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .section
+    {
+        gap: 24px;
+    }
+
+
+    .event_info .section + .section
+    {
+        margin-top: 60px;
+    }
+
+
+    .event_info .title
+    {
+        font-size: 22px;
+
+        width: 280px;
+    }
+
+    .event_info .title.padding
+    {
+        padding: 23px 0;
+    }
+
+
+    .event_info .description
+    {
+        font-size: 24px;
+
+        width: 720px;
+        max-width: calc(100% - 320px);
+    }
+
+
+    .event_info .laureates
+    {
+        width: 720px;
+        max-width: calc(100% - 320px);
+
+        gap: 24px;
+    }
+
+
+    .event_info .laureates .photos img
+    {
+        width: 76px;
+        height: 76px;
+    }
+
+
+    .event_info .laureates .desc
+    {
+        font-size: 16px;
+    }
+
+
+    .event_info .program
+    {
+        width: calc(100% - 320px);
+    }
+
+
+    .event_info .accordion_item .head
+    {
+        gap: 0 40px;
+    }
+
+
+    .event_info .accordion_item .head .time
+    {
+        width: 80px;
+    }
+
+
+    .event_info .accordion_item .head .sep
+    {
+        height: 24px;
+    }
+
+
+    .event_info .accordion_item .head .name
+    {
+        font-size: 22px;
+
+        width: calc(100% - 161px);
+    }
+
+
+    .event_info .accordion_item .head .arr
+    {
+        right: 0;
+    }
+
+
+    .event_info .accordion_item .data
+    {
+        padding-bottom: 20px;
+        padding-left: 160px;
+    }
+
+
+    .event_info .guests
+    {
+        width: 720px;
+        max-width: calc(100% - 320px);
+    }
+
+
+    .event_info .guests .swiper
+    {
+        width: 100%;
+        margin-right: 0;
+        padding-right: 68px;
+    }
+
+
+    .event_info .guests .controls
+    {
+        gap: 20px;
+    }
+
+
+    .event_info .guests .swiper-button-next,
+    .event_info .guests .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+    }
+
+
+    .event_info .guests .desc
+    {
+        font-size: 16px;
+
+        margin-top: 24px;
+    }
+
+
+    .event_info .take_part
+    {
+        font-size: 16px;
+
+        width: 720px;
+        max-width: calc(100% - 320px);
+    }
+
+
+    .event_info .take_part .btn
+    {
+        margin-top: 24px;
+        padding: 16px 32px;
+    }
+
+
+
+    /*------------------
+        Event banner
+    ------------------*/
+    .event_banner
+    {
+        padding: 80px 0;
+    }
+
+
+    .event_banner .data
+    {
+        width: 520px;
+    }
+
+
+    .event_banner .title
+    {
+        font-size: 40px;
+    }
+
+
+
+    /*--------------------
+        Event partners
+    --------------------*/
+    .event_partners
+    {
+        margin-bottom: 72px;
+    }
+
+
+    .event_partners .block_title
+    {
+        font-size: 22px;
+
+        width: 168px;
+        padding-top: 8px;
+    }
+
+
+    .event_partners .data
+    {
+        width: calc(100% - 188px);
+    }
+
+
+    .event_partners .row
+    {
+        gap: 32px;
+    }
+
+
+
+    /*-------------------
+        Event gallery
+    -------------------*/
+    .event_gallery
+    {
+        margin-bottom: 80px;
+    }
+
+
+    .event_gallery .block_title
+    {
+        font-size: 22px;
+
+        margin-bottom: 28px;
+    }
+
+
+    .event_gallery .swiper-button-next,
+    .event_gallery .swiper-button-prev
+    {
+        width: 48px;
+        height: 48px;
+        margin-bottom: 28px;
+    }
+
+
+    .event_gallery .swiper-slide
+    {
+        width: 440px;
+    }
+}

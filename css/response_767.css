@@ -1,0 +1,254 @@
+@media print,
+(max-width: 767px)
+{
+    /*----------------
+        Event head
+    ----------------*/
+    .event_head
+    {
+        padding: 160px 0 80px;
+    }
+
+
+    .event_head .pre_title
+    {
+        font-size: 14px;
+    }
+
+
+    .event_head .title
+    {
+        font-size: 40px;
+
+        width: 100%;
+    }
+
+
+    .event_head .desc
+    {
+        font-size: 14px;
+
+        width: 100%;
+    }
+
+
+
+    /*----------------
+        Event data
+    ----------------*/
+    .event_data .data
+    {
+        margin-top: -40px;
+    }
+
+
+    .event_data .item.name,
+    .event_data .item.date
+    {
+        align-self: flex-start;
+
+        width: auto;
+    }
+
+
+    .event_data .item.location
+    {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+
+    .event_data .item.location br
+    {
+        display: none;
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .description
+    {
+        font-size: 22px;
+    }
+
+
+    .event_info .accordion_item
+    {
+        border: none;
+    }
+
+
+    .event_info .accordion_item + .accordion_item
+    {
+        margin-top: 28px;
+    }
+
+
+    .event_info .accordion_item .head
+    {
+        padding: 0;
+
+        gap: 8px;
+    }
+
+
+    .event_info .accordion_item .head .time
+    {
+        width: 60px;
+    }
+
+
+    .event_info .accordion_item .head .sep
+    {
+        width: calc(100% - 104px);
+        height: 1px;
+    }
+
+
+    .event_info .accordion_item .head .name
+    {
+        font-size: 20px;
+
+        width: 100%;
+    }
+
+
+    .event_info .accordion_item .head .arr
+    {
+        top: 0;
+        bottom: auto;
+
+        margin: 0;
+    }
+
+
+    .event_info .accordion_item .data
+    {
+        padding: 8px 0 0;
+    }
+
+
+
+    .event_info .guests
+    {
+        display: flex;
+        flex-direction: column;
+    }
+
+
+    .event_info .guests .swiper
+    {
+        order: 2;
+
+        padding-right: 0;
+        padding-bottom: 64px;
+    }
+
+
+    .event_info .guests .controls
+    {
+        top: auto;
+        bottom: 0;
+
+        display: flex;
+        align-content: center;
+        align-items: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+
+        width: 100%;
+
+        transform: none;
+    }
+
+
+    .event_info .guests .controls .swiper-pagination
+    {
+        width: auto;
+    }
+
+
+    .event_info .guests .desc
+    {
+        margin-top: 0;
+        margin-bottom: 24px;
+    }
+
+
+
+    .event_info .take_part .btn
+    {
+        width: 100%;
+    }
+
+
+
+    /*------------------
+        Event banner
+    ------------------*/
+    .event_banner
+    {
+        padding: 72% 0 48px;
+
+        background: #272727;
+    }
+
+
+    .event_banner .title
+    {
+        font-size: 32px;
+    }
+
+
+    .event_banner .bg
+    {
+        right: 0;
+        left: 0;
+
+        overflow: hidden;
+
+        width: 100%;
+        height: auto;
+    }
+
+
+    .event_banner .bg:after
+    {
+        background: linear-gradient(0deg, #272727 0%, rgba(39, 39, 39, 0) 100%);
+    }
+
+
+    .event_banner .bg img
+    {
+        width: 140%;
+        height: auto;
+        margin: 0 -20%;
+    }
+
+
+
+    /*--------------------
+        Event partners
+    --------------------*/
+    .event_partners .row img
+    {
+        max-width: 164px;
+        max-height: 64px;
+
+        transform: none;
+    }
+
+
+
+    /*-------------------
+        Event gallery
+    -------------------*/
+    .event_gallery .swiper-slide
+    {
+        width: 360px;
+    }
+}

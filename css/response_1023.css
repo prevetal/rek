@@ -1,0 +1,153 @@
+@media print,
+(max-width: 1023px)
+{
+    /*----------------
+        Event head
+    ----------------*/
+    .event_head
+    {
+        padding: 180px 0 88px;
+    }
+
+
+
+    /*----------------
+        Event data
+    ----------------*/
+    .event_data .btns
+    {
+        width: 100%;
+        margin-top: 24px;
+    }
+
+
+    .event_data .btns .btn
+    {
+        width: calc(50% - 4px);
+    }
+
+
+
+    /*----------------
+        Event info
+    ----------------*/
+    .event_info .title
+    {
+        width: 100%;
+
+        color: rgba(39, 39, 39, .40);
+    }
+
+    .event_info .title.padding
+    {
+        padding: 0;
+    }
+
+
+    .event_info .description
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .event_info .laureates
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .event_info .program
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .event_info .guests
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .event_info .guests .swiper
+    {
+        padding-right: 76px;
+    }
+
+
+    .event_info .take_part
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+
+    /*------------------
+        Event banner
+    ------------------*/
+    .event_banner
+    {
+        padding: 68px 0;
+    }
+
+
+
+    /*--------------------
+        Event partners
+    --------------------*/
+    .event_partners .block_title
+    {
+        width: 100%;
+        margin-bottom: 24px;
+        padding-top: 0;
+    }
+
+
+    .event_partners .data
+    {
+        width: 100%;
+        max-width: 100%;
+    }
+
+
+    .event_partners .row
+    {
+        gap: 24px;
+    }
+
+
+    .event_partners .row img
+    {
+        max-width: 200px;
+        max-height: 80px;
+
+        transform: scale(.9);
+    }
+
+
+
+    /*-------------------
+        Event gallery
+    -------------------*/
+    .event_gallery .block_title
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .event_gallery .swiper-button-next,
+    .event_gallery .swiper-button-prev
+    {
+        margin-bottom: 24px;
+    }
+
+
+    .event_gallery .swiper-slide
+    {
+        width: 400px;
+    }
+}
