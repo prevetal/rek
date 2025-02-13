@@ -244,9 +244,10 @@ header
     left: 0;
 
     width: 100%;
-    padding: 40px 0;
+    padding: 24px 0 21px;
 
-    color: #fff;
+    border-radius: 0 0 90px 90px;
+    background: #fff;
 }
 
 
@@ -260,61 +261,15 @@ header .cont
 }
 
 
-header .with_support_label,
-header .organizer_label
-{
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 14px;
-
-    display: none;
-    order: 3;
-
-    width: 100%;
-    margin-bottom: 12px;
-
-    text-align: center;
-    letter-spacing: .8px;
-    text-transform: uppercase;
-
-    color: #5c5d62;
-}
-
-
-header .organizer_label
-{
-    order: 1;
-}
-
-
-header .logos
-{
-    display: flex;
-    align-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    justify-content: flex-start;
-
-    width: 430px;
-    max-width: 100%;
-
-    gap: 58px;
-}
-
-
-header .logos ~ .logos
-{
-    justify-content: flex-end;
-
-    gap: 48px;
-}
-
-
-header .logos img
+header .logo
 {
     display: block;
 
-    max-width: 100%;
+    margin-right: auto;
+
+    text-decoration: none;
+
+    color: currentColor;
 }
 
 
@@ -322,8 +277,79 @@ header .logo img
 {
     display: block;
 
-    height: 23px;
-    margin: 0 auto;
+    height: 22px;
+}
+
+
+
+header .tags
+{
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+
+    gap: 6px;
+}
+
+
+header .tags > *
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(100% + 4px);
+
+    padding: 11px 23px;
+
+    letter-spacing: -.14px;
+
+    color: #6e6e6e;
+    border: 1px solid #6e6e6e;
+    border-radius: 24px;
+    background: #fff;
+}
+
+
+
+header .all_link
+{
+    margin-left: 6px;
+}
+
+
+header .all_link a
+{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: calc(100% + 4px);
+
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+
+    padding: 8px 16px 8px 24px;
+
+    text-decoration: none;
+    letter-spacing: -.14px;
+
+    color: #edeae7;
+    border: 1px solid #6e6e6e;
+    border-radius: 24px;
+    background: #6e6e6e;
+
+    gap: 4px;
+}
+
+
+header .all_link svg
+{
+    display: block;
+
+    width: 24px;
+    height: 24px;
 }
 
 

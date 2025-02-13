@@ -1,5 +1,15 @@
 @media (max-width: 479px)
 {
+    /*------------
+        Header
+    ------------*/
+    header .logo img
+    {
+        height: 18px;
+    }
+
+
+
     /*----------------
         Event head
     ----------------*/

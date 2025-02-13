@@ -6,21 +6,7 @@
     ------------*/
     header
     {
-        padding: 32px 0;
-    }
-
-
-    header .logos
-    {
-        width: 348px;
-
-        gap: 48px;
-    }
-
-
-    header .logos ~ .logos
-    {
-        gap: 40px;
+        border-radius: 0 0 32px 32px;
     }
 
 

@@ -1,12 +1,35 @@
 @media print,
 (max-width: 1023px)
 {
+    /*------------
+        Header
+    ------------*/
+    header
+    {
+        padding: 24px 0;
+    }
+
+
+    header .logo
+    {
+        width: 100%;
+        margin-bottom: 24px;
+    }
+
+
+    header .logo img
+    {
+        margin: 0 auto;
+    }
+
+
+
     /*----------------
         Event head
     ----------------*/
     .event_head
     {
-        padding-top: 248px;
+        padding-top: 200px;
         padding-bottom: 88px;
     }
 

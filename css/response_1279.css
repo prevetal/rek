@@ -4,43 +4,15 @@
     /*------------
         Header
     ------------*/
-    header
+    header .tags > *
     {
-        padding: 24px 0;
+        padding: 11px 19px;
     }
 
 
-    header .with_support_label,
-    header .organizer_label
+    header .all_link a
     {
-        display: block;
-    }
-
-
-    header .logo
-    {
-        order: 2;
-
-        width: 100%;
-        margin-bottom: 28px;
-    }
-
-
-    header .logos,
-    header .logos ~ .logos
-    {
-        justify-content: space-around;
-        order: 4;
-
-        width: 50%;
-
-        gap: 0;
-    }
-
-
-    header .logos img
-    {
-        max-height: 60px;
+        padding-left: 20px;
     }
 
 
@@ -50,7 +22,7 @@
     ----------------*/
     .event_head
     {
-        padding: 268px 0 100px;
+        padding: 180px 0 100px;
     }
 
 
